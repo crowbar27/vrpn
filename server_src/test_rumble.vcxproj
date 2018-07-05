@@ -101,7 +101,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK\Include;..;../quat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\../pc_win32/server_src/test_rumble/Release/test_rumble.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../pc_win32/server_src/test_rumble/Release/</AssemblerListingLocation>
@@ -142,7 +142,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK\Include;..;../quat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\../pc_win32/server_src/test_rumble/Release/test_rumble.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../pc_win32/server_src/test_rumble/Release/</AssemblerListingLocation>
@@ -182,7 +182,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\../pc_win32/server_src/test_rumble/Debug/test_rumble.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../pc_win32/server_src/test_rumble/Debug/</AssemblerListingLocation>
       <ObjectFileName>.\../pc_win32/server_src/test_rumble/Debug/</ObjectFileName>
@@ -223,7 +223,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK\Include;..;../quat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\../pc_win32/server_src/test_rumble/Debug/test_rumble.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../pc_win32/server_src/test_rumble/Debug/</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>

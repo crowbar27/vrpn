@@ -101,7 +101,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\..\..\pc_win32\server_src\directshow_video_server\Debug/directshow_video_server.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\..\..\pc_win32\server_src\directshow_video_server\Debug/</AssemblerListingLocation>
       <ObjectFileName>.\..\..\pc_win32\server_src\directshow_video_server\Debug/</ObjectFileName>
@@ -142,7 +142,7 @@
       <AdditionalIncludeDirectories>../../;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Samples\Multimedia\DirectShow\BaseClasses;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft DirectX SDK (August 2006)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\..\..\pc_win32\server_src\directshow_video_server\Debug/directshow_video_server.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\..\..\pc_win32\server_src\directshow_video_server\Debug/</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -183,7 +183,7 @@
       <AdditionalIncludeDirectories>../../;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Samples\Multimedia\DirectShow\BaseClasses;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft DirectX SDK (August 2006)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\..\..\pc_win32\server_src\directshow_video_server\Release/directshow_video_server.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\..\..\pc_win32\server_src\directshow_video_server\Release/</AssemblerListingLocation>
@@ -225,7 +225,7 @@
       <AdditionalIncludeDirectories>../../;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Samples\Multimedia\DirectShow\BaseClasses;$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;$(SYSTEMDRIVE)\Program Files\Microsoft DirectX SDK (August 2006)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\..\..\pc_win32\server_src\directshow_video_server\Release/directshow_video_server.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\..\..\pc_win32\server_src\directshow_video_server\Release/</AssemblerListingLocation>

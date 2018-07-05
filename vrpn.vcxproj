@@ -94,7 +94,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;../dtrack;quat;../isense;../Dtrack;../libfreespace/include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\Include;$(SYSTEMDRIVE)\sdk\cpp;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1;./submodules/hidapi/hidapi;$(SYSTEMDRIVE)\Program Files\libusb-1.0\libusb;$(SYSTEMDRIVE)\Program Files (x86)\Polhemus\PDI\PDI_90\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;VRPNDLL_NOEXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\pc_win32/Release/vrpn.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\pc_win32/Release/</AssemblerListingLocation>
@@ -124,7 +124,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;../dtrack;quat;../isense;../Dtrack;../libfreespace/include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\Include;$(SYSTEMDRIVE)\sdk\cpp;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1;./submodules/hidapi/hidapi;$(SYSTEMDRIVE)\Program Files\libusb-1.0\libusb;$(SYSTEMDRIVE)\Program Files (x86)\Polhemus\PDI\PDI_90\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;VRPNDLL_NOEXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\pc_win32/Release/vrpn.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\pc_win32/Release/</AssemblerListingLocation>
@@ -152,7 +152,7 @@
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;../dtrack;quat;../isense;../Dtrack;../libfreespace/include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\Include;$(SYSTEMDRIVE)\sdk\cpp;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1;./submodules/hidapi/hidapi;$(SYSTEMDRIVE)\Program Files\libusb-1.0\libusb;$(SYSTEMDRIVE)\Program Files (x86)\Polhemus\PDI\PDI_90\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;VRPNDLL_NOEXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\pc_win32/Debug/vrpn.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\pc_win32/Debug/</AssemblerListingLocation>
       <ObjectFileName>.\pc_win32/Debug/</ObjectFileName>
@@ -180,7 +180,7 @@
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;../dtrack;quat;../isense;../Dtrack;../libfreespace/include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include;$(SYSTEMDRIVE)\Program Files\National Instruments\NI-DAQ\Include;$(SYSTEMDRIVE)\sdk\cpp;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1;./submodules/hidapi/hidapi;$(SYSTEMDRIVE)\Program Files\libusb-1.0\libusb;$(SYSTEMDRIVE)\Program Files (x86)\Polhemus\PDI\PDI_90\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;VRPNDLL_NOEXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\pc_win32/Debug/vrpn.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\pc_win32/Debug/</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>

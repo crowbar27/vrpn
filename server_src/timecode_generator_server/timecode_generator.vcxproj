@@ -93,7 +93,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\../../pc_win32/server_src/timecode_generator/Debug/timecode_generator.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../../pc_win32/server_src/timecode_generator/Debug/</AssemblerListingLocation>
       <ObjectFileName>.\../../pc_win32/server_src/timecode_generator/Debug/</ObjectFileName>
@@ -122,7 +122,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;..\..;../../../Adrienne/AEC_DLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>.\../../pc_win32/server_src/timecode_generator/Debug/timecode_generator.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../../pc_win32/server_src/timecode_generator/Debug/</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -152,7 +152,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;..\..;../../../Adrienne/AEC_DLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\../../pc_win32/server_src/timecode_generator/Release/timecode_generator.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../../pc_win32/server_src/timecode_generator/Release/</AssemblerListingLocation>
@@ -181,7 +181,7 @@
       <AdditionalIncludeDirectories>$(SYSTEMDRIVE)\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include;..\..;../../../Adrienne/AEC_DLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\../../pc_win32/server_src/timecode_generator/Release/timecode_generator.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\../../pc_win32/server_src/timecode_generator/Release/</AssemblerListingLocation>
